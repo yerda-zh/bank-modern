@@ -85,7 +85,7 @@ const Navbar = () => {
                     text-white`}
                   key={nav.id}
                 >
-                  <a href={`${nav.id}`}>{nav.title}</a>
+                  <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>
