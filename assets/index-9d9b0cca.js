@@ -82,7 +82,7 @@ Error generating stack: `+i.message+`
                     cursor-pointer 
                     text-[16px] 
                     ${r===xr.length-1?"mr-0":"mb-4"} 
-                    text-white`,children:p.jsx("a",{href:`${t.id}`,children:t.title})},t.id))})})]})]})},mp=()=>p.jsxs("section",{id:"product",className:dn.sectionReverse,children:[p.jsxs("div",{className:dn.sectionImgReverse,children:[p.jsx("img",{src:Ad,alt:"bill",className:`w-[100%]\r
+                    text-white`,children:p.jsx("a",{href:`#${t.id}`,children:t.title})},t.id))})})]})]})},mp=()=>p.jsxs("section",{id:"product",className:dn.sectionReverse,children:[p.jsxs("div",{className:dn.sectionImgReverse,children:[p.jsx("img",{src:Ad,alt:"bill",className:`w-[100%]\r
         h-[100%] relative z-[5]\r
         transform transition duration-700 hover:scale-105`}),p.jsx("div",{className:`absolute z-[3] -left-1/2 top-0 w-[50%]\r
         h-[50%] rounded-full white__gradient`}),p.jsx("div",{className:`absolute z-[0] -left-1/2 bottom-0 w-[50%]\r
