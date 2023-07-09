@@ -14,7 +14,8 @@ const Navbar = () => {
       py-6 
       justify-between 
       items-center 
-      navbar">
+      navbar
+      ">
   
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 
@@ -31,12 +32,15 @@ const Navbar = () => {
               font-poppins 
               font-normal 
               cursor-pointer 
-              text-[16px] 
+              text-[16px]
+              hover:text-secondary
+              transition 
+              duration-200
               ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} 
               text-white`}
             key={nav.id}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
